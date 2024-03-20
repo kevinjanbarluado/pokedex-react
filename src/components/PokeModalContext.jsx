@@ -29,7 +29,7 @@ export const PokeModalProvider = ({ children }) => {
     const fetchPokemon = async (id) => {
       try {
         setOpen(true);
-        const res = await axios(`https://pokeapi.co/api/v2/pokemon/${id}`);
+        const res = await axios(`${import.meta.env.VITE_POKEMON_URL}${id}`);
         setFetchedData(res?.data);
       } catch (err) {
         console.error(err);
