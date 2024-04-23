@@ -4,6 +4,18 @@
   "author": "Kevin Jan Barluado",
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "pokedex",
+    "pokemon",
+    "react",
+    "web application",
+    "frontend",
+    "javascript",
+    "api",
+    "pokemon database",
+    "material-ui",
+    "responsive design"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
